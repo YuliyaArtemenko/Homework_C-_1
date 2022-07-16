@@ -29,7 +29,7 @@ else
 {
     if (b*b==a)
     {
-    Console.WriteLine("b явялется квадратом a");
+    Console.WriteLine("a явялется квадратом b");
     }
     else
     {

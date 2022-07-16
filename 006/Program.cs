@@ -5,3 +5,4 @@ string? s=Console.ReadLine();
 a=Convert.ToDouble(s);
 b=Math.Sin(a);
 Console.WriteLine(b);
+//Console.WriteLine($"sin({x})={y}");

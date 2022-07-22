@@ -30,9 +30,10 @@ int k=CountDigits(n);
 int n2=n%(int)Math.Pow(10,k-2);//берем в типы int вместо double
 int n3=n/(int)Math.Pow(10,k-1);
 int nn=n3*(int)Math.Pow(10,k-2)+n2;
-System.Console.WriteLine($"{n3}{n2}");
+//System.Console.WriteLine($"{n3}{n2}");
 System.Console.WriteLine(nn);
-
+//12346%1000=346
+//12346/10000=1000+346
 int CountDigits(int N)
 {
     if (N==0) return 1;

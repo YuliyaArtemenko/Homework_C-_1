@@ -1,8 +1,27 @@
-﻿// По заданному с клавиатуры номеру дня недели вывести его название
+﻿// 4. По заданному с клавиатуры номеру дня недели вывести его название
 int a;
 string? s=Console.ReadLine(); 
 a=Convert.ToInt32(s);
-if(a==1)
+switch(a)
+{
+    case 1://метка
+    System.Console.WriteLine("Monday");
+    break;
+    case 2:
+    System.Console.WriteLine("Tuesday");
+    break;
+    case 3:
+    System.Console.WriteLine("Wednesday");
+    break;
+    default:
+    System.Console.WriteLine("Wrong");
+    break;
+    
+
+}
+//или int dayOfWeek=Convert.ToInt(Console.ReadLine()); camelCase
+//int DayOfWeek-PascalCase
+/*if(a==1)
 {
     Console.WriteLine("Понедельник");
 }
@@ -46,5 +65,7 @@ if(a==1)
        }
     }
      
+*/
+
     
     

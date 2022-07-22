@@ -29,8 +29,9 @@ int n=Convert.ToInt32(Console.ReadLine());
 int k=CountDigits(n);
 int n2=n%(int)Math.Pow(10,k-2);//берем в типы int вместо double
 int n3=n/(int)Math.Pow(10,k-1);
-
+int nn=n3*(int)Math.Pow(10,k-2)+n2;
 System.Console.WriteLine($"{n3}{n2}");
+System.Console.WriteLine(nn);
 
 int CountDigits(int N)
 {
@@ -43,7 +44,7 @@ int CountDigits(int N)
     }
     return k;
 }
-//System.Console.WriteLine(CountDigits(n));
+
 
 
 
